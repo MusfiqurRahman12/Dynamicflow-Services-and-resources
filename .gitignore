@@ -1,0 +1,13 @@
+# Exclude Word document and temp files (for client use separately)
+*.docx
+~$*.docx
+
+# Python
+__pycache__/
+*.py
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
