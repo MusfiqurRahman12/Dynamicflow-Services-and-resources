@@ -1,5 +1,5 @@
 /* ========================================
-   DynamicFlow — Tech Stack Overview
+   Dynamicflow — Tech Stack Overview
    Interactive Scripts
    ======================================== */
 

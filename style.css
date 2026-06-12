@@ -1,5 +1,5 @@
 /* ========================================
-   DynamicFlow — Tech Stack & Services Overview
+   Dynamicflow — Tech Stack & Services Overview
    Design System & Styles
    ======================================== */
 
@@ -244,6 +244,41 @@ img {
   letter-spacing: 0.03em;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-btn-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  border-radius: 100px;
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.25);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #60a5fa;
+  cursor: pointer;
+  transition: var(--transition-base);
+  letter-spacing: 0.03em;
+}
+
+.header-btn-download:hover {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: rgba(59, 130, 246, 0.5);
+  color: #93c5fd;
+  transform: translateY(-1px);
+}
+
+.header-btn-download svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+
 /* ========================================
    HERO SECTION
    ======================================== */
@@ -307,8 +342,48 @@ img {
   font-size: 1.15rem;
   color: var(--text-secondary);
   max-width: 600px;
-  margin-bottom: 48px;
+  margin-bottom: 28px;
   line-height: 1.8;
+}
+
+.hero-actions {
+  margin-bottom: 40px;
+}
+
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  border-radius: var(--radius-md);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: var(--transition-base);
+  background: linear-gradient(135deg, var(--c-web) 0%, var(--c-saas) 100%);
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.25);
+  margin-top: 10px;
+}
+
+.btn-download:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(59, 130, 246, 0.45);
+  background: linear-gradient(135deg, #4f8cf7 0%, #996df7 100%);
+}
+
+.btn-download svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  transition: transform 0.3s var(--ease-out);
+}
+
+.btn-download:hover svg {
+  transform: translateY(2px);
 }
 
 /* Stats bar */
